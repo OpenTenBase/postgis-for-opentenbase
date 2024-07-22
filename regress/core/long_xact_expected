@@ -1,0 +1,12 @@
+Long transactions support enabled
+WARNING:  Developer option enable_datanode_row_triggers is ON. Triggers will be executed on the datanodes and must not require access to other nodes. Use with caution
+0
+1
+1
+t
+t
+t
+2|unauthorized
+1|unauthorized
+3|nolocks
+Long transactions support disabled
