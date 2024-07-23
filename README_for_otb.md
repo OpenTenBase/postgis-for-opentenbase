@@ -46,7 +46,7 @@ git clone https://github.com/dfzhang2022/postgis-for-opentenbase.git
 #     geos-3.9.3
 #     protobuf-3.7.1
 #     protobuf-c-1.4
-wget https://mirrors.aliyun.com/macports/distfiles/sqlite3/sqlite-autoconf-3390400.tar.gz
+wget https://mirrors.cloud.tencent.com/macports/distfiles/sqlite3/sqlite-autoconf-3390400.tar.gz
 
 wget https://github.com/google/googletest/archive/refs/tags/release-1.8.1.zip
 mv ./release-1.8.1.zip ./googletest-release-1.8.1.zip
