@@ -34,7 +34,7 @@ make install
 
 # Get source code of postgis-for-otb
 cd ${SOURCE_CODE_PATH}/contrib
-git clone https://github.com/dfzhang2022/postgis-for-opentenbase.git
+git clone https://github.com/OpenTenBase/postgis-for-opentenbase.git
 
 # Get dependency tarball
 
