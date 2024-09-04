@@ -23,7 +23,7 @@ git clone https://github.com/OpenTenBase/OpenTenBase
 cd ${SOURCECODE_PATH}/OpenTenBase
 rm -rf ${INSTALL_PATH}/opentenbase_bin_v2.0
 chmod +x configure*
-./configure --prefix=${INSTALL_PATH}/opentenbase_bin_v2.0 --enable-regress --enable-user-switch --with-openssl --with-ossp-uuid CFLAGS="-g -DPGXC -D_PG_ORCL -DXCP  -D_USER_SWITCH_"
+./configure --prefix=${INSTALL_PATH}/opentenbase_bin_v2.0  --enable-user-switch --with-openssl --with-ossp-uuid CFLAGS="-g -DPGXC -D_PG_ORCL -DXCP  -D_USER_SWITCH_"
 make clean
 make -sj
 make install

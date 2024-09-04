@@ -15,14 +15,6 @@ echo "prefix_args:"${prefix_args}
 export PATH=${prefix_args}/bin:$PATH
 export LD_LIBRARY_PATH=${prefix_args}/lib:$LD_LIBRARY_PATH
 
-# echo "compile zstd......"
-# cd zstd/
-# pwd
-# make -sj
-# #no need make install, copy zstd.so is ok
-# cp -r lib/*.h ${prefix_args}/include/
-# cp -r lib/libzstd.so.1.5.2 ${prefix_args}/lib/
-# echo "end compile zstd......"
 
 
 echo "start compile sqlite-autoconf-3390400......"
@@ -88,8 +80,6 @@ cd ..
 tar zxf protobuf-3.7.1.tar.gz 
 cd protobuf-3.7.1/
 pwd
-chmod +x autogen.sh 
-./autogen.sh 
 chmod +x configure
 ./configure --prefix=${prefix_args} CPPFLAGS=-I${prefix_args}/include LDFLAGS=-L${prefix_args}/lib 
 make clean
